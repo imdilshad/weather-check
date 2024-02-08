@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-align-v.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <h2>Enter city name</h2>
+        <div class="search">
+          <input type="text" id="city" value="jaipur" />
+          <button id="search" type="submit">search</button>
+        </div>
+      </div>
+      <div class="current-conditions-body">
+        <div class="current-conditions-columns">
+          <div class="current-conditions-val">
+            <div class="current-conditions-tempVal" id="temp-in-c">12°C</div>
+            <div class="current-conditions-phraseVal" id="phraseVal">
+              Cloudy
+            </div>
+          </div>
+          <div class="current-conditions-space"></div>
+          <div class="current-conditions-img">
+            <img
+              src="https://cdn.weatherapi.com/weather/64x64/night/143.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="region" id="region">jaipur</div>
+      </div>
+
+      <div class="temp-details">
+        <header id="area"><h1>Today in</h1></header>
+        <div class="feel-like">
+          <span >Feel Like</span>
+          <div class="feel-like-container" id="feelLike">15°C</div>
+        </div>
+        <div class="wind">
+          <div class="wind-container1">
+            <div class="windbox">
+              
+              <div class="humidity">
+                <i class="fa-solid fa-droplet"></i><span>Humidity</span></div>
+              <span id="humidity">15</span>
+            </div><hr>
+            <div class="windbox">
+              
+              <div class="pressure">
+                <i class="gg-arrow-align-v"></i><span>Pressure </span></div>
+              <span id="pressure">15</span>
+            </div><hr>
+            <div class="windbox">
+              
+              <div class="wind-dir">
+                <i class="fa-regular fa-compass"></i><span>Wind-Dir.</span></div>
+              <span id="wind-dir">15</span>
+            </div>
+          </div>
+
+          <div class="wind-container2"><hr>
+            <div class="windbox">
+              
+              <div class="wind1">
+                <i class="fa-solid fa-wind"></i><span>Wind</span></div>
+              <span id="wind-speed">15 kmh</span>
+            </div><hr>
+            <div class="windbox">
+             
+              <div class="visbile">
+                <i class="fa-solid fa-eye"></i><span>Visbility</span></div>
+              <span id="visbile">15</span>
+            </div><hr>
+            <div class="windbox">
+             
+              <div class="uv-index">
+                <i class="fa-regular fa-sun"></i><span>Uv Index</span></div>
+              <span id="uv-index">15</span>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
