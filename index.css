@@ -190,6 +190,12 @@ width: 47%;
   align-items: center;
   gap: 10px;
 }
+@media only screen (max-width:360px){
+.body{
+font-size:1em
+}
+
+}
 
 
 
