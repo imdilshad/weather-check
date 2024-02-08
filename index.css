@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background-color: skyblue;
+
+}
+
+
+.container{
+  display: block;
+max-width: 37.5em;
+  width: 90%;
+  padding: 3em 1.5em;
+}
+.search{
+  display: block;
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  font-size: 2rem;
+}
+.search h2{
+  color: #fff;
+}
+
+
+.search input{
+  margin-top: 1rem;
+  padding: 0.5em;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.search button{
+  font-size: 1rem;
+  padding: 0.4rem;
+  outline: none;
+  border: none;
+  border-radius: .3rem;
+  background-color: #e61c20;
+  color: #fff;
+}
+.current-conditions-body{
+  background-image: url("cloud");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 28%;
+  height: 30vh;
+ width: 80%;
+ background-color:#fff ;
+ border-radius: .75rem;
+}
+.temp-details{
+  display: block;
+  position: absolute;
+  margin-top: 1rem;
+  top:60% ;
+  left: 10%;
+  /* height: 30vh; */
+  width: 80%;
+  background-color:rgba(128, 128, 128, 0.514) ;
+  border-radius: .75rem;
+  color: #fff;
+}
+
+.current-conditions-columns{
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+margin-bottom: 1rem;
+padding: 5px;
+}
+.current-conditions-val{
+  /* height: 102px; */
+  width: 30%;
+  /* background-color: #e61; */
+}
+.current-conditions-space{
+  /* height: 102px; */
+  width: 50%;
+  /* background-color: #e61c20; */
+}
+.current-conditions-img{
+  /* height: 102px; */
+  width: 20%;
+  /* background-color: #fff; */
+  padding: 1rem ;
+  background-size: cover;
+}
+.current-conditions-img img{
+  margin: 0 1rem;
+
+}
+.current-conditions-tempVal{
+font-size: 3rem;
+color: #fff;
+}
+.current-conditions-phraseVal{
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.region{
+  display: block;
+  height: 4vh;
+  width: 50%;
+  color: #fff;
+  padding-left: 5px;
+  font-size: 1.5rem;
+}
+/* wind box editing */
+
+.wind{
+ display: flex;
+ justify-content: space-around;
+ padding: 0 1rem;
+}
+.wind-container1{
+/* background-color: #e61c20; */
+width: 47%;
+}
+.wind-container2{
+/* background-color:blue; */
+width: 47%;
+}
+
+#area{
+  padding: 10px;
+}
+
+
+.feel-like{
+  /* display: inline-flex; */
+  gap: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  width: 90%;
+  font-size: 1.5em;
+}
+
+.feel-like-container{
+  font-size: 2rem;
+}
+
+
+.windbox{
+  display: flex;
+  justify-content: space-between;
+ gap: 1rem;
+ padding: 1rem;
+ align-items: center;
+}
+
+
+.humidity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pressure {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wind-dir {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wind1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.visbile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.uv-index {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
