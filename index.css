@@ -11,8 +11,8 @@ body{
 
 
 .container{
-  display: block;
-max-width: 37.5em;
+display:block;
+max-width: 40em;
   width: 90%;
   padding: 3em 1.5em;
 }
