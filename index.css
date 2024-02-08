@@ -11,34 +11,47 @@ body{
 
 
 .container{
-display:block;
-max-width: 40em;
+  display: block;
+max-width: 37.5em;
   width: 90%;
   padding: 3em 1.5em;
 }
-.search{
-  display:flex;
+.search-container{
+  display: block;
   text-align: center;
   width: 70%;
   position: absolute;
   left: 15%;
   font-size: 2rem;
+  color: #fff;
+}
+.search{
+  display: flex;
+  /* position: relative; */
+  left: 35%;
+  height: 4vmin;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  margin-top: 2vmin;
 }
 .search h2{
   color: #fff;
 }
 
-
-.search input{
+/* input hai */
+#city{
   margin-top: 1rem;
   padding: 0.5em;
-  font-size: 1rem;
+  font-size: 3vmin;
   outline: none;
   border: none;
   border-radius: 10px;
 }
-.search button{
-  font-size: 1rem;
+/* button hai */
+#search{
+  margin-top: 1rem;
+  font-size: 3vmin;
   padding: 0.4rem;
   outline: none;
   border: none;
@@ -57,6 +70,7 @@ max-width: 40em;
  width: 80%;
  background-color:#fff ;
  border-radius: .75rem;
+ padding: 1vmin;
 }
 .temp-details{
   display: block;
@@ -71,12 +85,15 @@ max-width: 40em;
   color: #fff;
 }
 
+
+
+
 .current-conditions-columns{
 display: flex;
-justify-content: center;
+justify-content: space-around;
 margin-top: 1rem;
-margin-bottom: 1rem;
-padding: 5px;
+margin-bottom: 3vmin;
+padding: 2vmin;
 }
 .current-conditions-val{
   /* height: 102px; */
@@ -92,11 +109,13 @@ padding: 5px;
   /* height: 102px; */
   width: 20%;
   /* background-color: #fff; */
-  padding: 1rem ;
+  padding: 2vmin ;
   background-size: cover;
 }
 .current-conditions-img img{
-  margin: 0 1rem;
+  position: relative;
+  left: 0%;
+  /* margin: 0 1rem; */
 
 }
 .current-conditions-tempVal{
@@ -163,43 +182,81 @@ width: 47%;
 .humidity {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
 .pressure {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
 .wind-dir {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
 .wind1 {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
 .visbile {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
 .uv-index {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 2vmin;
 }
-@media only screen (max-width:360px){
-body{
-font-size:0.75em;
-}
-.temp-details{
-width:90%;
-}
-  .search{
-width:70%;
 
+@media only screen and (max-width:360px){
+ 
+  h2{
+    font-size: 1em;
+  }
+  .windbox{
+    font-size: 0.5em;
+    gap: 2vmin;
+ /* padding: 0.95em; */
+  }
+  .feel-like{
+    font-size: 0.75em;
+    gap: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  width: 90%;
+  }
+  #area{
+    font-size: 0.5em;
+  }
+
+  .current-conditions-space{
+    width: 27%;
+  }
+  #region{
+    font-size: 1em;
+  }
+  .current-conditions-tempVal{
+    font-size: 2em;
+  }
+  .current-conditions-phraseVal{
+    font-size: 0.75em;
+  }
+  .wind{
+    padding:0 0.5em;
+  }
+ .current-conditions-body{
+  top: 23%;
+  height: 28vh;
+ }
+ .temp-details{
+  top: 50%;
+ }
+ .region{
+  padding-left: 4vmin;
+ }
+ 
 }
 
 
