@@ -213,10 +213,10 @@ width: 47%;
 @media only screen and (max-width:360px){
  
   h2{
-    font-size: 0.75em;
+    font-size: 0.5em;
   }
   .windbox{
-    font-size: 0.3em;
+    font-size: 0.15em;
     gap: 2vmin;
  /* padding: 0.95em; */
   }
@@ -257,10 +257,6 @@ width: 47%;
  .region{
   padding-left: 4vmin;
  }
- .wind-container1{
-  width:90%}
-     .wind-container2{
-  width:90%}
  
 }
 
