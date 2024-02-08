@@ -213,10 +213,10 @@ width: 47%;
 @media only screen and (max-width:360px){
  
   h2{
-    font-size: 1em;
+    font-size: 0.75em;
   }
   .windbox{
-    font-size: 0.5em;
+    font-size: 0.3em;
     gap: 2vmin;
  /* padding: 0.95em; */
   }
@@ -245,7 +245,7 @@ width: 47%;
   }
   .wind{
     padding:0 0.5em;
-    flex-direction: column;
+    
   }
  .current-conditions-body{
   top: 23%;
