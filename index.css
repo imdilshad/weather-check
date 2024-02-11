@@ -238,7 +238,7 @@ width: 47%;
     padding: 0.5rem;
     outline: none;
     border: none;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 0.5rem;
   }
   
@@ -257,7 +257,14 @@ width: 47%;
     margin-top: 2rem;
     padding: 0.5rem;
     width: 95%;
+    left:3%;
   }
+  .current-conditions-body{
+    top:21%
+  }
+   .temp-details{
+     top:53%
+   }
 
   
   .current-conditions-columns {
